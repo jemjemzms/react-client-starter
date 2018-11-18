@@ -1,0 +1,68 @@
+.page-loader {
+  background: #f8f8f8;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+}
+.page-loader__spin {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-top: 6px solid #f6f6f6;
+  border-right: 6px solid #f6f6f6;
+  border-bottom: 6px solid #f6f6f6;
+  border-left: 6px solid #1b1b1b;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: spinner 1000ms infinite linear;
+  -moz-animation: spinner 1000ms infinite linear;
+  -o-animation: spinner 1000ms infinite linear;
+  animation: spinner 1000ms infinite linear;
+  z-index: 100000;
+}
+
+.au-progress {
+  .au-progress__bar {
+    height: 10px;
+    position: relative;
+    background: #d9d9d9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    .au-progress__inner {
+      position: absolute;
+      width: 0;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-transition: width 1s ease-in-out;
+      -o-transition: width 1s ease-in-out;
+      -moz-transition: width 1s ease-in-out;
+      transition: width 1s ease-in-out;
+      background-color: $background_color_5;
+      overflow: visible;
+    }
+  }
+}
+.au-progress__title {
+  font-size: 14px;
+  color: $color_7;
+  display: inline-block;
+  margin-bottom: 9px;
+}
+.au-progress__value {
+  font-size: 14px;
+  color: $color_7;
+  position: absolute;
+  top: -28px;
+  right: -15px;
+}

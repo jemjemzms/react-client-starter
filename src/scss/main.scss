@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+// 1. CONFIGRATION AND HELPERS
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 3. BASE CODE
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/icons';
+  
+// 4. COMPONENTS
+@import
+  'components/alert',
+  'components/button',
+  'components/card',
+  'components/carousel',
+  'components/chart',
+  'components/content',
+  'components/font',
+  'components/etc',
+  'components/social',
+  'components/statistics',
+  'components/preloader',
+  'components/message',
+  'components/modal',
+  'components/forms',
+  'components/table',
+  'components/task',
+  'components/section',
+  'components/slider',
+  'components/switch';
+
+// 4. LAYOUT
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/overview';

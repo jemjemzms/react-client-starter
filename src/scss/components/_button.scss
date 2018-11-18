@@ -1,0 +1,106 @@
+.au-btn {
+  line-height: 45px;
+  padding: 0 35px;
+  text-transform: uppercase;
+  color: $white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    color: $white;
+    background: #3868cd;
+  }
+}
+.au-btn--blue2 {
+  background: #00aced;
+  &:hover {
+    background: #00a2e3;
+  }
+}
+.au-btn--block {
+  display: block;
+  width: 100%;
+}
+.au-btn-icon {
+  i {
+    vertical-align: baseline;
+    margin-right: 5px;
+  }
+}
+.au-btn--blue {
+  background: #4272d7;
+}
+.au-btn--green {
+  background: #63c76a;
+  &:hover {
+    background: #59bd60;
+  }
+}
+.au-btn-plus {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: #63c76a;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  bottom: -22.5px;
+  right: 45px;
+  z-index: 3;
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: $white;
+  }
+  &:hover {
+    background: #59bd60;
+  }
+}
+.au-btn-load {
+  background: #808080;
+  padding: 0 40px;
+  font-size: 15px;
+  color: $white;
+  &:hover {
+    background: #767676;
+  }
+}
+.au-btn-filter {
+  font-size: 14px;
+  color: $color_7;
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.03);
+  padding: 0 15px;
+  line-height: 40px;
+  text-transform: capitalize;
+  i {
+    margin-right: 5px;
+  }
+}
+.au-btn--small {
+  padding: 0 20px;
+  line-height: 40px;
+  font-size: 14px;
+}

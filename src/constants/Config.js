@@ -1,3 +1,3 @@
 // Config Constants
 
-export const API_URL = 'http://easybudget.loc';
+export const API_URL = 'http://localhost:3000';

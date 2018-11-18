@@ -17,7 +17,7 @@ Here are the few highlights to look out for this boilerplate
 
   * Member Token Authentication
   * Category module
-  * Component Secific Styles
+  * Component Specific Styles
   * Predictable state management
   * Color third party library
 

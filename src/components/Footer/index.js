@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="row">
           <div className="col-md-12">
               <div className="copyright">
-                  <p>Copyright © 2018 EasyBudget. All rights reserved.</p>
+                  <p>Copyright © 2018 React Client Starter. All rights reserved.</p>
               </div>
           </div>
       </div>
